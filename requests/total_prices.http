@@ -1,0 +1,2 @@
+### GET compact summer for 10 days
+GET http://localhost:8002/vehicle-total-price/by-days?vehicleType=Compact&season=summer&days=10
