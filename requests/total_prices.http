@@ -1,2 +1,20 @@
 ### GET compact summer for 10 days
 GET http://localhost:8002/vehicle-total-price/by-days?vehicleType=Compact&season=summer&days=10
+
+### GET compact winter for 10 days
+GET http://localhost:8002/vehicle-total-price/by-days?vehicleType=Compact&season=winter&days=10
+
+### GET compact summer for 20 days
+GET http://localhost:8002/vehicle-total-price/by-days?vehicleType=Compact&season=summer&days=20
+
+### GET compact winter for 20 days
+GET http://localhost:8002/vehicle-total-price/by-days?vehicleType=Compact&season=winter&days=20
+
+### GET compact summer for 30 days
+GET http://localhost:8002/vehicle-total-price/by-days?vehicleType=Compact&season=summer&days=30
+
+### GET compact winter for 30 days
+GET http://localhost:8002/vehicle-total-price/by-days?vehicleType=Compact&season=winter&days=30
+
+### GET unknown vehicle type for 10 days
+GET http://localhost:8002/vehicle-total-price/by-days?vehicleType=Unknown&season=summer&days=10
